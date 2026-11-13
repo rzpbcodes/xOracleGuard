@@ -1,0 +1,9 @@
+setting,chains,k,corrupted_feeds,reference,detection_pct,ci95_pct,n_runs_used
+k=3 leave-one-out; drop avalanche_c,"bnb,ethereum,optimism",3,1,median,96.60650398914372,0.1813271394936415,100
+k=3 leave-one-out; drop bnb,"avalanche_c,ethereum,optimism",3,1,median,96.57109573039502,0.19229090451578545,100
+k=3 leave-one-out; drop ethereum,"avalanche_c,bnb,optimism",3,1,median,99.88291722095673,0.038072881497646885,100
+k=3 leave-one-out; drop optimism,"avalanche_c,bnb,ethereum",3,1,median,96.60165651901147,0.178326103485206,100
+k=4 all chains,"avalanche_c,bnb,ethereum,optimism",4,1,mean,95.404,0.20660063789784866,100
+k=4 all chains,"avalanche_c,bnb,ethereum,optimism",4,1,median,98.88199999999999,0.0845156348932796,100
+k=4 contaminated-feed stress,"avalanche_c,bnb,ethereum,optimism",4,2,median,26.752000000000002,0.3641282335117726,100
+k=4 contaminated-feed stress,"avalanche_c,bnb,ethereum,optimism",4,3,median,0.45000000000000007,0.052080729874325146,100

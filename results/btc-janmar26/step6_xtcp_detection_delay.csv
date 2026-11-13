@@ -1,0 +1,2 @@
+theta,distortion_pct,detection_pct,detection_ci95_pct,mean_first_detect_step,median_first_detect_step,p95_first_detect_step,max_first_detect_step,mean_detection_minutes_offline,median_detection_minutes_offline,p95_detection_minutes_offline
+1.01,1.0000000000000009,98.96400000000001,0.08327326843809874,3.611636554706762,4.0,5.0,5.0,3.611636554706762,4.0,5.0

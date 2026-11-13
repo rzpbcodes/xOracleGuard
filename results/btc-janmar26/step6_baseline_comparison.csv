@@ -1,0 +1,9 @@
+configuration,reference,theta,detection_pct,ci95_pct,clean_rule_frr_pct,uptime_pct
+No defense,None,1.01,0.0,0.0,0.0,100.0
+SecPLF local clip,Previous local accepted price,1.01,0.0,0.0,0.0,100.0
+Heartbeat only,Feed freshness,1.01,0.534,0.06255521281639961,0.5547752808988764,100.0
+Local jump CB,Previous local accepted price,1.01,2.346,0.1304116177510441,65.95583645443196,100.0
+Same-chain TWAP,Local 5-min trailing TWAP,1.01,93.95800000000003,0.1887213428001256,0.8583021223470662,100.0
+Cross-chain mean,Mean of monitored feeds,1.01,95.44400000000002,0.16467770611995208,0.03160112359550562,100.0
+Cross-chain median,Median of monitored feeds,1.01,98.96399999999998,0.08327326843809872,0.08680555555555555,100.0
+Full xOG,Median + X2 + xOCB,1.01,98.96399999999998,0.08327326843809872,0.08680555555555555,96.02215980024968
